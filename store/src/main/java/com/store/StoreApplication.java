@@ -21,6 +21,7 @@ public class StoreApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		
+		
 		storeRepo.save(new Store("Big Bazzar","Pune"));
 		storeRepo.save(new Store("D-Mart","Delhi"));
 		storeRepo.save(new Store("Pantalon","Bangalore"));
